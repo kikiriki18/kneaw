@@ -1,0 +1,762 @@
+ 
+     body{
+    font-family: "Lato",serif;
+	background-color:#f5f5dc;
+	
+     }
+
+/* style for index.html*/
+.sidenav {
+    height: 100%;
+    width: 393px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F0F0F0;
+	color:black;
+    overflow-x: hidden;
+    transition:0.5s;
+    padding-top:60px;
+     
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display:block;
+    transition:0.4s;
+	color:black;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a{font-size:18px;}
+}
+
+
+/*  style for h1*/
+ .hemsida{
+	 border:1px solid black;
+	-webkit-border-radius:20px;
+	 text-align:center;
+	 margin-top:30px;
+	 margin-right:auto;
+	 margin-left:auto;
+	 width:240px;
+	 font-family:Arial,serif;
+	 background-color:red;
+	 font-size:35px;
+	color:#f0f0f0;
+	
+	 }
+	 
+	 
+	
+	 
+ul { 
+	list-style:none;
+	margin-bottom:5px;
+	padding:20%;
+	width:50%;
+	margin:auto;	
+	display:block;
+	
+}
+.ul a:hover {
+    color: red;
+}
+
+
+.om{
+
+	float:left;
+	width:70px;
+	margin-right:100px;
+	margin-bottom:5px;
+	margin-left:auto;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.kund{
+	float:left;
+	width:70px;
+	margin-right:100px;
+	margin-bottom:5px;
+	margin-left:auto;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+	
+	
+.sa{
+
+	float:left;
+	width:70px;
+	margin-right:100px;
+	margin-bottom:5px;
+	margin-left:auto;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+	
+	
+.ser{
+
+	float:left;
+	width:70px;
+	margin-right:100px;
+	margin-bottom:5px;
+	margin-left:auto;
+	color:#000000;
+	text-decoration:none;
+	
+	}
+	
+	
+	
+.kont{
+
+	float:left;
+	width:70px;
+	margin-right:100px;
+	margin-bottom:5px;
+	margin-left:auto;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+	
+	
+	 
+	 
+	 
+/*style for image*/
+	.img{
+	
+		float:left;
+		width:200px;
+	    height:200px;
+	 margin-left:100px;
+	 margin-right:5px;
+	
+	
+		}
+		
+		/*style for image*/
+		
+	.shoes{
+	
+		float:left;
+		width:200px;
+	    height:200px;
+		margin-right:5px;
+		
+      }
+        
+
+	/*style for image*/		
+	.phone{
+	
+		float:left;
+		width:200px;
+	    height:200px;
+	margin-left:5px;
+	
+		}
+		
+		/*style for image*/
+	.damshoes{
+	    float:left;
+		width:200px;
+	    height:200px;
+     margin-left:5px;
+	
+	 
+	  }
+
+
+	  
+	  
+	  
+	 
+	.topnav .search-container {
+  float: right;
+   }
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+	 
+	
+ .first{
+	 text-align:center;
+		width:400px;
+		display:inline;
+		font-size:25px;
+		
+		
+	}
+.sidenav {
+    height: 100%;
+    width: 393px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F0F0F0;
+	color:black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px
+     
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.4s;
+	color:black;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a{font-size:18px;}
+}
+.img{
+	
+		float:left;
+		width:200px;
+	    height:300px;
+		margin-left:5px;
+		
+	
+		}
+		
+	.shoes{
+	
+		float:center;
+		width:200px;
+	    height:300px;
+		margin-left:5px;
+
+}
+
+			
+	.phone{
+	
+		float:right;
+		width:200px;
+	    height:300px;
+	margin-left:5px;
+		}
+		
+		.damshoes{
+	    float:right;
+		width:200;
+	    height:300px;
+     margin-left:5px;
+	  }
+
+		
+/*style for skonhet*/
+    .skon{
+	text-align:center;
+	font-size:38px;
+	font-family:georgia,serif;
+
+     }
+			
+	
+	
+	.beauty{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		
+	
+		}
+		
+	  
+	  		
+
+	.smink{
+	
+		float:right;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+ 
+	  
+	 		
+		/*style for mode*/	
+
+	.dress1{
+      
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:300px;
+	  
+		}
+		
+				
+	.dress2{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+	 #mode{
+	text-align:center;
+	font-size:38px;
+	font-family:georgia,serif;
+
+			}
+		
+/*style for hemmet*/
+		
+		.hemmet{
+			text-align:center;
+	    font-size:38px;
+	     font-family:georgia,serif;
+
+			}
+		
+		
+		
+		.hem{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+		
+	
+		}		
+
+		
+		.hem1 {
+		float:center;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+		
+		
+		}	
+
+
+
+		.hem2{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+
+
+		.hem3{
+		float:center;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+		/*style for elektronik*/
+		.elektro{
+		text-align:left;
+	     font-size:38px;
+	     font-family:georgia,serif;
+
+			}
+		
+		
+		
+		.elektronik{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+     .elektronik1{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+
+	.elektronik2{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:300px;
+	
+		}
+	
+		.elektronik3{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:300px;
+	
+		}
+
+		
+		
+		
+		
+		/*style for sport&fritid*/
+		
+		#sport{
+		text-align:center;
+	     font-size:38px;
+	     font-family:georgia,serif;
+
+			}
+		
+		
+		
+		
+		
+		.sport{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+
+		.sport1{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+      .sport2{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+	.sport3{
+	
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+		/*style for parfymer*/
+		
+     .perf{
+	text-align:center;
+     font-size:35px;
+      font-family:georgia,serif;
+	
+	 }	
+		
+		
+	.perfume1	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+			
+	.perfume2	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+			
+	.perfume3	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+			
+	.perfume4	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+		
+		
+		
+		/*style for make-up*/
+     .make_up{
+	text-align:center;
+     font-size:35px;
+      font-family:georgia,serif;
+	
+	 }	
+			
+			
+	.make_up1	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+				
+			
+	.make_up2	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+				
+			
+	.make_up3	{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+		
+ /*style for ansiktvard*/		
+		
+     #ansikte{
+	text-align:center;
+     font-size:35px;
+      font-family:georgia,serif;
+	
+	 }	
+			
+		
+				
+	.ansikte3{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+		
+				
+	.ansikte1{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+		
+					
+	.ansikte2{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+/*style for fotvard*/
+		
+     #fot{
+	text-align:center;
+     font-size:35px;
+      font-family:georgia,serif;
+	
+	 }	
+			
+		
+		
+					
+	.fot{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+			
+		
+		
+					
+	.fot1{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+		
+			
+					
+	.fot2{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}	
+		
+						
+	.fot3{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+		/*style for kroppsvard*/
+     #kropp{
+	text-align:center;
+     font-size:35px;
+      font-family:georgia,serif;
+	
+	 }	
+			
+			
+						
+	.kropp{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+			
+						
+	.kropp1{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+							
+	.kropp3{
+		float:left;
+		width:500px;
+	    height:400px;
+		margin-left:5px;
+	
+		}
+		
+		
+		
+		
+		
